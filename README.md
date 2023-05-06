@@ -6,8 +6,6 @@ Stringfluent is a String helper that allo you to easily manipulate strings using
 chainable syntax with Multibyte support baked in.
 
 ```php
-
-
         $str = Stringfluent::create("  any form of string, or stringable interface can be used. ");
         $str->toUpperCase()->trim()->truncate(3); // ANY
         
@@ -31,13 +29,16 @@ Via Composer. Run the following command from your project's root.
 composer require s-mcdonald/stringfluent
 ```
 
-
 <a name="dependencies"></a>
 ## Dependencies
 
 *  Php 8.0
-
-
+*  extension "ext-mbstring"
+*  extension "ext-ctype"
+*  extension "ext-alpha"
+*  extension "ext-punct"
+*  extension "ext-graph"
+*  extension "ext-http"
 
 ## License
 
