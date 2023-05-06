@@ -1,0 +1,9 @@
+.idea
+vendor
+build
+coverage
+composer.phar
+composer.lock
+*.sublime-project
+*.sublime-workspace
+.phpunit.result.cache
